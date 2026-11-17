@@ -1,0 +1,19 @@
+.env
+__pycache__/
+*.pyc
+.streamlit/
+uploads/*
+!uploads/.gitkeep
+chroma_db/*
+!chroma_db/.gitkeep
+
+# Generated academic report files
+DETAILED_PROJECT_REPORT.*
+PROJECT_REPORT.*
+SYNOPSIS*.md
+
+# Generated report/reference previews
+assets/detailed_report_page_*.png
+assets/reference_page_*.png
+assets/report_*_preview.png
+assets/toc_preview_page_*.png
